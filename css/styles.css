@@ -20,6 +20,68 @@
 header {
   margin-bottom: 5%;
 }
+.comp-buy {
+  padding: 5%;
+}
+.cpbuy-card {
+  width: 100%;
+  height: auto;
+  background-color: rgb(245 245 245 / 71%);
+  padding: 10%;
+  border-radius: 60px;
+}
+.cpbuy-card .d-flex .btn-buysolid{
+  background-color: #000;
+  color: #fff;
+  margin-right: 2%;
+}
+.cpbuy-card .d-flex .btn-buyoutline{
+  border: 2px solid #000;
+}
+
+.cpbuy-card .d-flex .btn{
+  padding: 2%;
+  font-family: lm;
+  margin-top: 0 !important;
+}
+.cpbuy-card h4 {
+  font-size: 2.5rem;
+  font-family: "lm";
+  margin-bottom: 3% !important;
+}
+.cpbuy-card p {
+  padding: 0 12% 3%;
+  font-size: 1.2rem;
+}
+.cpbuy-bigbtn .btn {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 2%;
+  border-radius: 50 px;
+  margin-top: 3%;
+  font-size: 1.1rem;
+  font-family: "lm";
+}
+.cmpsf-card {
+  height: 350px;
+  display: table;
+}
+.cmpsf-card div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cmpsf-card h5 {
+  font-family: lb;
+  margin-bottom: 2% !important;
+  font-size: 2.5rem;
+}
+.cmpsf-card p {
+  font-size: 1.1rem;
+}
+.cmpsf-img img {
+  width: 100%;
+  height: 350px;
+}
 .compwn-top {
   padding: 10% 8%;
   border-radius: 10px;
