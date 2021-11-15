@@ -31,7 +31,7 @@ header {
   font-size: 1.6rem;
   color: #b3b3b3;
 }
-.foot-logos div{
+.foot-logos div {
   margin-right: 1.5%;
 }
 .main-footer {
@@ -596,6 +596,23 @@ header {
   }
 }
 @media (max-width: 767px) {
+  .mfoot-card,
+  .mftbuy-card {
+    margin-bottom: 5%;
+  }
+  .cmpsf-card {
+    height: auto;
+  }
+  .cpbuy-card h4 {
+    font-size: 1.7rem;
+  }
+  .cpbuy-card p {
+    font-size: 1rem;
+  }
+  .cmpsf-img img {
+    height: 200px;
+    margin: 3% 0 1%;
+  }
   .btn-compwn {
     padding: 1% 5% !important;
     margin-top: 5%;
@@ -669,6 +686,9 @@ header {
   }
 }
 @media (min-width: 1024px) {
+  .cmpsf-card {
+    /* height: 350px !important; */
+  }
   .compwn-tright {
     text-align: right !important;
   }
@@ -719,6 +739,10 @@ header {
   }
 }
 @media (min-width: 768px) {
+  .mfoot-card,
+  .mftbuy-card {
+    margin-bottom: 5%;
+  }
   .compwn-bimg img {
     width: 150px;
     height: 150px;
@@ -758,6 +782,12 @@ header {
   }
 }
 @media (max-width: 550px) {
+  .cpbuy-card .d-flex {
+    display: block !important;
+  }
+  .cpbuy-card .d-flex .btn {
+    margin-bottom: 2%;
+  }
   .compap-top h6 {
     font-size: 1.4rem;
   }
@@ -766,6 +796,9 @@ header {
   }
 }
 @media (max-width: 425px) {
+  .cpbuy-card {
+    border-radius: 20px;
+  }
   header {
     margin-bottom: 0;
   }
